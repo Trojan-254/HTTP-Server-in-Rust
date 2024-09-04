@@ -81,3 +81,44 @@ pub fn handle_api_request(request_target: &str) -> String {
         response_body
     )
 }
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::fs::{self, File};
+    use std::io::Write;
+    use std::path::Path;
+
+    #[test]
+    fn test_handle_homepage() {
+        // Setup: Create a temporary index.html file in a temporary directory
+        let test_dir = "./static";
+        let test_file_path = Path::new(test_dir).join("index.html");
+
+        // Ensure the directory exists
+        fs::create_dir_all(test_dir).unwrap();
+
+        // Write some test content to index.html
+        let mut file = File::create(&test_file_path).unwrap();
+        writeln!(file, "<h1>Tester for Rusty</h1>").unwrap();
+
+        // Expected values
+        let expected_status_line = "HTTP/1.1 200 OK";
+        let expected_contents = "<h1>Tester for Rusty</h1>\n";
+        let expected_length = expected_contents.len();
+        let expected_response = format!(
+            "{expected_status_line}\r\nContent-Length: {expected_length}\r\nContent-Type: text/html\r\n\r\n{expected_contents}"
+        );
+
+        // Run the function
+        let response = handle_homepage();
+
+        // Assert that the function returns the expected response
+        assert_eq!(response, expected_response);
+
+        // Cleanup: Remove the temporary file
+        fs::remove_file(&test_file_path).unwrap();
+    }
+}
+
