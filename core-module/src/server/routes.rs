@@ -5,7 +5,7 @@ use std::fs;
 
 pub fn handle_homepage() -> String {
     let status_line = "HTTP/1.1 200 OK";
-    let contents = fs::read_to_string("./static/index.html").unwrap();
+    let contents = fs::read_to_string("./static/homepage.html").unwrap();
     let length = contents.len();
     let response = format!(
         "{status_line}\r\nContent-Length: {length}\r\nContent-Type: text/html\r\n\r\n{contents}"

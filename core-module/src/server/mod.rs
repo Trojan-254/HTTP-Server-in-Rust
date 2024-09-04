@@ -1,7 +1,7 @@
 use std::net::TcpStream;
 use std::io::{prelude::*, BufReader};
-// use std::time::SystemTime;
 use log::info;
+use std::error::Error;
 
 mod routes;
 use routes::{
@@ -15,28 +15,8 @@ use routes::{
     handle_docs,
 };
 
-// pub fn handle_connection(mut stream: TcpStream) {
-//     let buf_reader = BufReader::new(&mut stream);
-//     let request_line = buf_reader.lines().next().unwrap().unwrap();
-    
-//     if request_line == "GET / HTTP/1.1" {
-//         let status_line = "HTTP/1.1 200 OK";
-//         let response = format!(
-//             "{status_line}\r\n"
-//         );
-//         stream.write_all(response.as_bytes()).unwrap();
-//     } else {
-//         let status_line = "HTTP/1.1 404 NOT FOUND";
 
-//         let response = format!(
-//             "{status_line}\r\n"
-//         );
-
-//         stream.write_all(response.as_bytes()).unwrap();
-//     }
-// }
-
-pub fn handle_connection(mut stream: TcpStream) {
+pub fn handle_connection(mut stream: TcpStream) -> Result<(), Box<dyn Error>> {
     let buf_reader = BufReader::new(&mut stream);
     let http_request: Vec<_> = buf_reader
         .lines()
@@ -68,5 +48,6 @@ pub fn handle_connection(mut stream: TcpStream) {
             stream.write_all(response.as_bytes()).unwrap();
         }
     }
+    Ok(())
 }
 
