@@ -1,0 +1,359 @@
+2024-09-03-12-42:26 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-12-42:26 [INFO] - Perfoming Health checks!.....
+2024-09-03-12-42:26 [INFO] - Perfomance. Optimized.....
+2024-09-03-12-42:30 [INFO] - Connection established!
+2024-09-03-12-42:30 [INFO] - Received request: [
+    "GET / HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "Cache-Control: max-age=0",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-12-44:17 [INFO] - Connection established!
+2024-09-03-12-44:17 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-07:49 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-16-07:49 [INFO] - Perfoming Health checks!.....
+2024-09-03-16-07:49 [INFO] - Perfomance. Optimized.....
+2024-09-03-16-08:09 [INFO] - Connection established!
+2024-09-03-16-08:09 [INFO] - Received request: [
+    "GET / HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "Cache-Control: max-age=0",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-08:16 [INFO] - Connection established!
+2024-09-03-16-08:16 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-17:38 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-16-17:38 [INFO] - Perfoming Health checks!.....
+2024-09-03-16-17:38 [INFO] - Perfomance. Optimized.....
+2024-09-03-16-17:59 [INFO] - Connection established!
+2024-09-03-16-17:59 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-22:35 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-16-22:35 [INFO] - Perfoming Health checks!.....
+2024-09-03-16-22:35 [INFO] - Perfomance. Optimized.....
+2024-09-03-16-22:45 [INFO] - Connection established!
+2024-09-03-16-22:45 [INFO] - Received request: [
+    "GET / HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "Cache-Control: max-age=0",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-22:50 [INFO] - Connection established!
+2024-09-03-16-22:50 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-23:24 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-16-23:24 [INFO] - Perfoming Health checks!.....
+2024-09-03-16-23:24 [INFO] - Perfomance. Optimized.....
+2024-09-03-16-23:30 [INFO] - Connection established!
+2024-09-03-16-23:30 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "Cache-Control: max-age=0",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-25:53 [INFO] - Connection established!
+2024-09-03-16-25:53 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-16-46:38 [INFO] - Connection established!
+2024-09-03-16-46:38 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-17-10:16 [INFO] - Connection established!
+2024-09-03-17-10:16 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-18-58:43 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-18-58:43 [INFO] - Perfoming Health checks!.....
+2024-09-03-18-58:43 [INFO] - Perfomance. Optimized.....
+2024-09-03-18-59:10 [INFO] - Rusty HTTP Server is up and running...
+2024-09-03-18-59:10 [INFO] - Perfoming Health checks!.....
+2024-09-03-18-59:10 [INFO] - Perfomance. Optimized.....
+2024-09-03-22-12:46 [INFO] - Connection established!
+2024-09-03-22-12:46 [INFO] - Received request: [
+    "GET / HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-22-12:47 [INFO] - Connection established!
+2024-09-03-22-12:47 [INFO] - Received request: [
+    "GET /favicon.ico HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: no-cors",
+    "Sec-Fetch-Dest: image",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-22-12:50 [INFO] - Connection established!
+2024-09-03-22-12:50 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-22-15:01 [INFO] - Connection established!
+2024-09-03-22-15:01 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-22-37:02 [INFO] - Connection established!
+2024-09-03-22-37:02 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
+2024-09-03-23-07:06 [INFO] - Connection established!
+2024-09-03-23-07:06 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Not)A;Brand\";v=\"99\", \"Brave\";v=\"127\", \"Chromium\";v=\"127\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+]
