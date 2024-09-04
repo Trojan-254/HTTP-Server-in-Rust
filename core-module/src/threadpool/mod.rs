@@ -1,5 +1,5 @@
 use std::sync::{mpsc, Arc, Mutex};
-
+use log::info;
 use std::thread::JoinHandle;
 
 mod worker;
@@ -38,13 +38,18 @@ impl ThreadPool {
 
 impl Drop for ThreadPool {
     fn drop(&mut self) {
-        drop(self.sender.take());
-        for worker in &mut self.workers {
-            println!("Shutting down worker {}......", worker.id);
-            if let Some(thread) = worker.thread.take() {
-                thread.join().unwrap();
-            }
-        }
+       drop(self.sender.take());
+       for worker in &mut self.workers {
+           info!("Shutting down worker...");
+           println!("Worker id: {}", worker.id);
+
+           if let Some(thread) = worker.thread.take() {
+              match thread.join() {
+                 Ok(_) => info!("Worker {} shut down succesfully.", worker.id),
+                 Err(e) => eprintln!("Worker {} failed to shut down: {:?}", worker.id, e),
+              }
+           }
+       }
     }
 }
 
