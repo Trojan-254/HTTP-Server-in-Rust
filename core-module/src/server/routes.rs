@@ -151,5 +151,27 @@ mod tests {
         // Cleanup: Remove the temporary file
         fs::remove_file(&test_file_path).unwrap();
     }
+    
+    #[test]
+    fn test_handle_echo() {
+        // Expected values
+        let response_body = r#"{"message": "hello"}"#;
+        let expected_status_line = "HTTP/1.1 200 OK";
+        let expected_content_type = "application/json";
+        let expected_length = response_body.len();
+        let expected_response = format!(
+            "{}\r\nContent-Type: {}\r\nContent-Length: {}\r\n\r\n{}",
+            expected_status_line,
+            expected_content_type,
+            expected_length,
+            response_body
+        );
+
+        // Run the function
+        let response = handle_echo();
+
+        // Assert that the function returns the expected response
+        assert_eq!(response, expected_response);
+    }
 }
 
