@@ -120,5 +120,36 @@ mod tests {
         // Cleanup: Remove the temporary file
         fs::remove_file(&test_file_path).unwrap();
     }
+
+    #[test]
+    fn test_handle_docs() {
+        // Setup: Create a temporary docs.html file in a temporary directory
+        let test_dir = "./static";
+        let test_file_path = Path::new(test_dir).join("docs.html");
+
+        // Ensure the directory exists
+        fs::create_dir_all(test_dir).unwrap();
+
+        // Write some test content to docs.html
+        let mut file = File::create(&test_file_path).unwrap();
+        writeln!(file, "<h1>Documentation</h1>").unwrap();
+
+        // Expected values
+        let expected_status_line = "HTTP/1.1 200 OK";
+        let expected_contents = "<h1>Documentation</h1>\n";
+        let expected_length = expected_contents.len();
+        let expected_response = format!(
+            "{expected_status_line}\r\nContent-Length: {expected_length}\r\nContent-Type: text/html\r\n\r\n{expected_contents}"
+        );
+
+        // Run the function
+        let response = handle_docs();
+
+        // Assert that the function returns the expected response
+        assert_eq!(response, expected_response);
+
+        // Cleanup: Remove the temporary file
+        fs::remove_file(&test_file_path).unwrap();
+    }
 }
 
