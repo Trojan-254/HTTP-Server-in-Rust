@@ -1,6 +1,6 @@
 #[warn(unused_imports)]
 use std::time::SystemTime;
-// use chrono::prelude::*;
+use std::path::Path;
 use std::fs;
 
 pub fn handle_homepage() -> String {
@@ -80,6 +80,26 @@ pub fn handle_api_request(request_target: &str) -> String {
         content_length,
         response_body
     )
+}
+
+
+pub fn handle_404_error() -> String {
+    let mut response = String::new();
+    let status_line = "HTTP/1.1 404 Not Found\r\n";
+    let content_type = "Content-Type: text/html\r\n";
+    let content = fs::read_to_string(Path::new("./static/404.html")).unwrap_or_else(|_| {
+        // Fallback in case the file can't be read
+        "<html><body><h1>404 Not Found</h1><p>The page you are looking for does not exist.</p></body></html>".to_string()
+    });
+    let content_length = format!("Content-Length: {}\r\n", content.len());
+    
+    response.push_str(status_line);
+    response.push_str(content_type);
+    response.push_str(&content_length);
+    response.push_str("\r\n"); // End of headers
+    response.push_str(&content);
+
+    response
 }
 
 

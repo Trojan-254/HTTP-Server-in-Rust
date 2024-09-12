@@ -13,6 +13,7 @@ use routes::{
     handle_time,
     handle_status,
     handle_docs,
+    handle_404_error,
 };
 
 
@@ -42,7 +43,7 @@ pub fn handle_connection(mut stream: TcpStream) -> Result<(), Box<dyn Error>> {
                 ("POST", "/api/compute") => handle_compute(),
                 ("GET", "/api/status") => handle_status(),
                 ("GET", "/api/time") => handle_time(),
-                (_, _) => "HTTP/1.1 404 Not Found\r\n\r\n".to_string(),
+                _ => handle_404_error(),
             };
 
             stream.write_all(response.as_bytes()).unwrap();
