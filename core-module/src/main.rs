@@ -2,7 +2,7 @@ use std::net::TcpListener;
 use core_module::threadpool::ThreadPool;
 use core_module::server::handle_connection;
 use log::{info, error};
-std::env::set_var("RUST_BACKTRACE", "1");
+
 
 mod logger;
 
