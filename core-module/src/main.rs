@@ -9,7 +9,7 @@ mod logger;
 fn main() {
     // env_logger::init();
     logger::init_logger();
-    let listener = TcpListener::bind("127.0.0.1:4228").unwrap();
+    let listener = TcpListener::bind("0.0.0.1:4228").unwrap();
     info!("Rusty HTTP Server is up and running...");
     log::info!("Perfoming Health checks!.....");
     log::info!("Perfomance. Optimized.....");
