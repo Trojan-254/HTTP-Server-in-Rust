@@ -1,0 +1,7 @@
+services:
+  rust-app:
+    build: .
+    ports:
+      - "4228:4228"
+    environment:
+      - RUST_LOG=info
