@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "core-module": "core-module/target/release/core-module",
+      "src": "core-module/target/release/core-module",
       "use": "@vercel/rust"
     }
   ],
