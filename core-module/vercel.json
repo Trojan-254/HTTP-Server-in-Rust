@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/main.rs",
+      "use": "@vercel/rust",
+      "config": {
+        "installCommand": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y"
+      }
+    }
+  ]
+}
+
