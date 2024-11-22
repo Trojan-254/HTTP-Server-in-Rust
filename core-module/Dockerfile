@@ -1,5 +1,5 @@
 # Use the official Rust image as a base
-FROM rust:latest
+FROM rust:1.72 as builder
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -9,6 +9,8 @@ COPY . .
 
 # Build the Rust application
 RUN cargo build --release
+
+
 
 # Expose the desired port
 EXPOSE 4228
