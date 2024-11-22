@@ -1088,3 +1088,113 @@
 2024-09-12-12-55:26 [INFO] - Rusty HTTP Server is up and running...
 2024-09-12-12-55:26 [INFO] - Perfoming Health checks!.....
 2024-09-12-12-55:26 [INFO] - Perfomance. Optimized.....
+2024-11-22-10-20-22 [INFO] - Rusty HTTP Server is up and running...
+2024-11-22-10-20-22 [INFO] - Perfoming Health checks!.....
+2024-11-22-10-20-22 [INFO] - Perfomance. Optimized.....
+2024-11-22-10-20-31 [INFO] - Worker 0 got a job; executing....
+2024-11-22-10-20-31 [INFO] - Received request: [
+    "GET / HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "Cache-Control: max-age=0",
+    "sec-ch-ua: \"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+    "Cookie: csrftoken=QR9SXXB9do2JwxWMC1FCgcNE3syBBX1Q; sessionid=t6ar03xi8u4vulana60ryrydw09h72f4",
+]
+2024-11-22-10-20-31 [INFO] - Connection established. Handling connection...
+2024-11-22-10-20-31 [INFO] - Worker 1 got a job; executing....
+2024-11-22-10-20-31 [INFO] - Received request: [
+    "GET /favicon.ico HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua-platform: \"Linux\"",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "sec-ch-ua: \"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile: ?0",
+    "Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: no-cors",
+    "Sec-Fetch-Dest: image",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+    "Cookie: csrftoken=QR9SXXB9do2JwxWMC1FCgcNE3syBBX1Q; sessionid=t6ar03xi8u4vulana60ryrydw09h72f4",
+]
+2024-11-22-10-20-31 [INFO] - Connection established. Handling connection...
+2024-11-22-10-25-02 [INFO] - Worker 2 got a job; executing....
+2024-11-22-10-25-02 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+    "Cookie: csrftoken=QR9SXXB9do2JwxWMC1FCgcNE3syBBX1Q; sessionid=t6ar03xi8u4vulana60ryrydw09h72f4",
+]
+2024-11-22-10-25-02 [INFO] - Connection established. Handling connection...
+2024-11-22-10-26-20 [INFO] - Worker 3 got a job; executing....
+2024-11-22-10-26-20 [INFO] - Received request: [
+    "GET /api/time HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: none",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+    "Cookie: csrftoken=QR9SXXB9do2JwxWMC1FCgcNE3syBBX1Q; sessionid=t6ar03xi8u4vulana60ryrydw09h72f4",
+]
+2024-11-22-10-26-20 [INFO] - Connection established. Handling connection...
+2024-11-22-10-27-53 [INFO] - Worker 0 got a job; executing....
+2024-11-22-10-27-53 [INFO] - Received request: [
+    "GET /api/docs HTTP/1.1",
+    "Host: localhost:4228",
+    "Connection: keep-alive",
+    "sec-ch-ua: \"Brave\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+    "sec-ch-ua-mobile: ?0",
+    "sec-ch-ua-platform: \"Linux\"",
+    "Upgrade-Insecure-Requests: 1",
+    "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Sec-GPC: 1",
+    "Accept-Language: en-US,en",
+    "Sec-Fetch-Site: same-origin",
+    "Sec-Fetch-Mode: navigate",
+    "Sec-Fetch-User: ?1",
+    "Sec-Fetch-Dest: document",
+    "Referer: http://localhost:4228/",
+    "Accept-Encoding: gzip, deflate, br, zstd",
+    "Cookie: csrftoken=QR9SXXB9do2JwxWMC1FCgcNE3syBBX1Q; sessionid=t6ar03xi8u4vulana60ryrydw09h72f4",
+]
+2024-11-22-10-27-53 [INFO] - Connection established. Handling connection...

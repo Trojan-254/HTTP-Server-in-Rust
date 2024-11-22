@@ -4,8 +4,13 @@ use std::path::Path;
 use std::fs;
 
 pub fn handle_homepage() -> String {
+    let static_dir = Path::new(env!("CARGO_MANIFEST_DIR")).join("static");
+    let homepage_path = static_dir.join("homepage.html");
     let status_line = "HTTP/1.1 200 OK";
-    let contents = fs::read_to_string("./static/homepage.html").unwrap();
+    let contents = fs::read_to_string(&homepage_path).unwrap_or_else(|e| {
+        eprintln!("Failed to read {}: {}", homepage_path.display(), e);
+        "<html><body><h1>Internal Server Error</h1></body></html>".to_string()
+    });
     let length = contents.len();
     let response = format!(
         "{status_line}\r\nContent-Length: {length}\r\nContent-Type: text/html\r\n\r\n{contents}"
