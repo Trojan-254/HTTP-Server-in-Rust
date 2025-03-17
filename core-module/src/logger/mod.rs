@@ -1,4 +1,6 @@
 // core-module/src/logger/mod.rs
+mod config;
 
-pub mod logging;
-pub use logging::init_logger;
+
+pub mod config::LogConfig;
+pub use config::init_logger;
